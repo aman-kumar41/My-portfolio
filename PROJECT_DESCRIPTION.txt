@@ -1,0 +1,10 @@
+This is my personal portfolio website built using HTML5 and 
+CSS3 to showcase my introduction, education, technical skills, 
+and projects. It includes a navigation bar, a hero section, an 
+About section with an education timeline, skill cards, and a 
+responsive project showcase. The website uses CSS Grid, Flexbox,
+CSS variables, hover effects, and media queries to provide a 
+clean and responsive experience on desktop and mobile devices. 
+The contact section features email, GitHub, and LinkedIn links,
+along with a demo contact form that is currently for visual 
+purposes only.

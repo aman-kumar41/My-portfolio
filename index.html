@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#070b13">
+    <title>Aman Kumar — Full-Stack Developer focused on Web Security</title>
+    <meta name="description"
+        content="Portfolio of Aman Kumar, a BCA student at Silver Oak University specializing in PHP backend and web security.">
+    <meta name="author" content="Aman Kumar">
+    <meta property="og:title" content="Aman Kumar | Portfolio">
+    <meta property="og:description" content="BCA student building secure server-side logic and clean interfaces.">
+    <meta property="og:type" content="website">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%2310b981'/><text x='50' y='71' font-size='62' font-weight='800' text-anchor='middle' fill='%2304130d' font-family='sans-serif'>A</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Accessibility: lets keyboard users skip the navigation -->
+    <a class="skip-link" href="#top">Skip to content</a>
+
+    <!-- Short CSS-only loading splash (fades out by itself, no JavaScript). Delete this line to remove it. -->
+    <div class="loader" aria-hidden="true"><span class="loader-logo">A<span>.</span></span></div>
+
+    <header class="site-header">
+        <nav class="nav" aria-label="Primary">
+            <!-- Logo shrinks on small screens: "Aman Kumar." > "Aman." > "A." so it never pushes the links to a new row -->
+            <a class="logo" href="#top" aria-label="Aman Kumar, back to top">A<span class="logo-mid">man</span><span
+                    class="logo-last"> Kumar</span><span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-text">
+                <p class="hero-role">Full-Stack Developer focused on Web Security</p>
+                <h1 id="hero-title">Building secure server&#8209;side logic and clean interfaces.</h1>
+                <p class="hero-lede">A first-year BCA student at Silver Oak University. I write every line of frontend
+                    code by hand, while spending my nights engineering robust PHP backends and exploring web application
+                    security.</p>
+                <div class="hero-actions">
+                    <!-- Profile links (icons only) -->
+                    <ul class="hero-links" aria-label="Profile links">
+                        <li>
+                            <a class="icon-link" href="https://github.com/aman-kumar41" target="_blank" rel="noopener"
+                                aria-label="GitHub profile" title="GitHub">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href="https://www.linkedin.com/in/aman-kumar-637937433/"
+                                target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                    <rect x="2" y="9" width="4" height="12" />
+                                    <circle cx="4" cy="4" r="2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="icon-link" href="mailto:amankumardev41@gmail.com" aria-label="Send an email"
+                                title="Email">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="btn-ghost" href="#projects">
+                        See selected work
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <figure class="hero-art">
+                <img src="images/my_img.jpg" alt="Portrait of Aman Kumar" width="800" height="1000">
+            </figure>
+        </section>
+
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About</h2>
+            <div class="about-grid">
+                <div class="story">
+                    <p>I started with a single <code>&lt;h1&gt;</code> and a stubborn curiosity about why some pages
+                        feel calm and others feel noisy. That question still drives everything I build.</p>
+                    <p>I care about spacing, rhythm and the small pause of a good transition. I'd rather ship fewer
+                        things that feel right than many that merely work.</p>
+                    <p>Beyond frontend layouts, I enjoy server-side engineering. I am currently honing my skills
+                        in PHP backend architectures and researching cyber security frameworks to build applications
+                        that are as secure as they are beautiful.</p>
+                    <p class="interests"><strong>Career interests:</strong> PHP backend development, web application
+                        security, and full-stack web development.</p>
+                </div>
+                <ol class="timeline" aria-label="Education timeline">
+                    <li>
+                        <h3>Higher secondary education</h3>
+                        <p class="meta">Completed</p>
+                        <p>The place where curiosity about computers turned into a plan.</p>
+                    </li>
+                    <li>
+                        <h3>Full-Stack Development &amp; Cyber Security Courses</h3>
+                        <p class="meta">Completed, certificates received</p>
+                        <p>Full-stack development course from IIHT and cyber security course from Red &amp; White.</p>
+                    </li>
+                    <li>
+                        <h3>BCA, Semester 1</h3>
+                        <p class="meta">Silver Oak University</p>
+                        <p>Learning programming in C/C++, core computer applications, data exchange with JSON, and
+                            modern web technologies.</p>
+                    </li>
+                    <li>
+                        <h3>HTML &amp; CSS Internship</h3>
+                        <p class="meta">EWB Courses, my first internship</p>
+                        <p>Building this portfolio with HTML5 and CSS3 only.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Skills</h2>
+            <div class="skill-groups">
+                <!-- Group 1: Frontend -->
+                <article class="skill-group">
+                    <h3>Frontend Development</h3>
+                    <ul class="chips">
+                        <li>Semantic HTML5</li>
+                        <li>CSS Grid &amp; Flexbox</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Bootstrap</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </article>
+
+                <!-- Group 2: Backend & Data -->
+                <article class="skill-group">
+                    <h3>Backend &amp; Data</h3>
+                    <ul class="chips">
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>JSON</li>
+                        <li>RESTful Structure</li>
+                    </ul>
+                </article>
+
+                <!-- Group 3: Cyber Security -->
+                <article class="skill-group">
+                    <h3>Cyber Security</h3>
+                    <ul class="chips">
+                        <li>Web Security</li>
+                        <li>OWASP Top 10</li>
+                        <li>Ethical Hacking Basics</li>
+                        <li>Secure Coding</li>
+                    </ul>
+                </article>
+
+                <!-- Group 4: Foundations -->
+                <article class="skill-group">
+                    <h3>Programming Foundations</h3>
+                    <ul class="chips">
+                        <li>C Programming</li>
+                        <li>C++ (OOPs)</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>VS Code</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">My projects</h2>
+            <div class="bento">
+
+                <!-- Project 1 -->
+                <article class="project p-half">
+                    <div class="project-header">
+                        <span class="project-num">01</span>
+                        <span class="project-badge">AI Powered</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Class Video to Exam Notes</h3>
+                        <p>An AI study helper that connects to the Google Gemini API. A student uploads a recorded
+                            class video, and the tool returns the main topics of the lecture as a PDF that can be used
+                            for exam revision.</p>
+                    </div>
+                    <div class="project-foot">
+                        <div>
+                            <p class="tags-label">Technologies</p>
+                            <ul class="tags">
+                                <li>Gemini API</li>
+                                <li>AI / Python</li>
+                                <li>PDF Generation</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn project-btn-solid" type="button" aria-disabled="true" tabindex="-1">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                Live Demo
+                            </button>
+                            <button class="project-btn" type="button" aria-disabled="true" tabindex="-1">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project p-half">
+                    <div class="project-header">
+                        <span class="project-num">02</span>
+                        <span class="project-badge">Featured</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>This Portfolio Website</h3>
+                        <p>A responsive personal portfolio written by hand with semantic HTML5 and CSS3 only. It uses
+                            CSS Grid and Flexbox layouts, CSS variables, hover and focus states, and media queries for
+                            mobile screens.</p>
+                    </div>
+                    <div class="project-foot">
+                        <div>
+                            <p class="tags-label">Technologies</p>
+                            <ul class="tags">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                        </div>
+                        <div class="project-actions">
+                            <button class="project-btn project-btn-solid" type="button" aria-disabled="true" tabindex="-1">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                Live View
+                            </button>
+                            <button class="project-btn" type="button" aria-disabled="true" tabindex="-1">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                                </svg>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Let's make something</h2>
+            <p class="contact-lead">Have a small project, an internship or just a question? I read every message.</p>
+            <div class="contact-card">
+                <!-- Form (visual demo only. To make it work, set action to a form service URL such as Formspree.) -->
+                <form class="form" action="#contact" method="get">
+                    <div class="form-row">
+                        <div class="field">
+                            <input id="name" name="name" type="text" placeholder=" " autocomplete="name" required>
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="field">
+                            <input id="email" name="email" type="email" placeholder=" " autocomplete="email" required>
+                            <label for="email">Email address</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+                        <label for="message">What are you working on?</label>
+                    </div>
+                    <button class="btn-solid" type="submit">
+                        Send message
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M5 12h14M13 6l6 6-6 6" />
+                        </svg>
+                    </button>
+                    <p class="form-note">Visual demo only: this form does not send messages.</p>
+                </form>
+                <ul class="contact-direct" aria-label="Contact links">
+                    <li><a href="mailto:amankumardev41@gmail.com"><svg viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+                                aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg><span>amankumardev41@gmail.com</span></a></li>
+                    <li><a href="https://github.com/aman-kumar41" target="_blank" rel="noopener"><svg
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                            </svg><span>GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/aman-kumar-637937433/" target="_blank" rel="noopener"><svg
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                                <rect x="2" y="9" width="4" height="12" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg><span>LinkedIn</span></a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Aman Kumar. Hand-coded with HTML and CSS.</p>
+        <a href="#top">Back to top</a>
+    </footer>
+
+</body>
+
+</html>
